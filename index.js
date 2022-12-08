@@ -2,9 +2,8 @@ const express = require("express");
 const dotenv = require("dotenv");
 const cors = require("cors");
 const mongoose = require("mongoose");
-const ProductRouter = require("./router/product.route");
-const UserRouter = require("./router/User.router");
-
+const ProductRouter=require("./src/router/product.route")
+const UserRouter=require("./src/router/User.router")
 dotenv.config();
 const app = express();
 const mongodb_url =
